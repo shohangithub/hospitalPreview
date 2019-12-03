@@ -48,9 +48,9 @@ $(function() {
                 ],
                 series : [
                     {
-                        name:'Site A',
+                        name:'Prescribed',
                         type:'bar',
-                        data:[50,20,50,23,22,20,60,33,23,30,44,33,20,38,23,10,12,50,40,12,10,5,3.30,33,34,50,33,20,32,12,5],
+                        data:[50,20,50,23,22,20,30,33,23,30,44,33,20,38,23,10,12,50,40,12,10,5,3.30,33,34,50,33,20,32,12,5],
                         markPoint : {
                             data : [
                                 {type : 'max', name: 'Max'},
@@ -63,22 +63,22 @@ $(function() {
                             ]
                         }
                     },
-                    // {
-                    //     name:'Site B',
-                    //     type:'bar',
-                    //     data:[2.6, 5.9, 9.0, 26.4, 28.7, 70.7, 175.6, 182.2, 48.7, 18.8, 6.0, 2.3],
-                    //     markPoint : {
-                    //         data : [
-                    //             {name : 'The highest year', value : 182.2, xAxis: 7, yAxis: 183, symbolSize:18},
-                    //             {name : 'Year minimum', value : 2.3, xAxis: 11, yAxis: 3}
-                    //         ]
-                    //     },
-                    //     markLine : {
-                    //         data : [
-                    //             {type : 'average', name : 'Average'}
-                    //         ]
-                    //     }
-                    // }
+                    {
+                        name:'Test',
+                        type:'bar',
+                        data:[40,   20,50,23,22,20,20,33,23,30,44,33,20,38,23,10,12,50,40,12,10,5,3.30,33,34,50,33,20,32,12,5],
+                        markPoint : {
+                            data : [
+                                {name : 'The highest year', value : 182.2, xAxis: 7, yAxis: 183, symbolSize:18},
+                                {name : 'Year minimum', value : 2.3, xAxis: 11, yAxis: 3}
+                            ]
+                        },
+                        markLine : {
+                            data : [
+                                {type : 'average', name : 'Average'}
+                            ]
+                        }
+                    }
                 ]
             };
         // use configuration item and data specified to show chart
